@@ -1,7 +1,9 @@
 import Sign from "./Sing";
+import styles from "@/styles/Home.module.css";
+
 export default function Signes() {
   return (
-    <>
+    <div className={styles.signes}>
       <Sign>Aries</Sign>
       <Sign>Tarus</Sign>
       <Sign>Gemini</Sign>
@@ -14,6 +16,6 @@ export default function Signes() {
       <Sign>Capricorn</Sign>
       <Sign>Aquarius</Sign>
       <Sign>Pisces</Sign>
-    </>
+    </div>
   );
 }

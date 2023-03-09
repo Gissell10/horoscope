@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="next.svg" />
       </Head>
       <main>
-        <Signes className={styles.signes} />
+        <Signes />
       </main>
     </>
   );

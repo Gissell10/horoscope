@@ -3,7 +3,6 @@
   display: grid;
   grid-template-columns: repeat(3, minmax(25%, auto));
   max-width: 100%;
-  background-color: rgb(217, 169, 169);
 }
 .sing {
   margin: 20px;
