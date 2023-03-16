@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import Link from "next/link";
 
-export default function Sign({ children }) {
+export default function Signes({ children }) {
   const signes = [
     "aries",
     "taurus",
@@ -23,7 +23,7 @@ export default function Sign({ children }) {
       {signes.map((path) => {
         return (
           <div key={path} className={styles.sing}>
-            <Link href={`${path}`}>
+            <Link href={`/sign/${path}`}>
               <Image
                 src={`/${path}.png`}
                 alt="sign"
