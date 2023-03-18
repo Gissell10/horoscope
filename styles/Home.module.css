@@ -1,6 +1,8 @@
 .menu {
   display: flex;
   margin-left: 5.5rem;
+  list-style-type: none;
+  padding: 0;
 }
 .heroImg {
   background-image: url("/hero.svg");
@@ -25,4 +27,26 @@
   margin-bottom: 10px;
   border: 7px solid white;
   box-shadow: 2px 6px 10px 0px #000000ad;
+}
+.menuLinkA:hover {
+  color: #663e84;
+}
+.menuLinkA:hover::before {
+  content: "";
+  border-bottom: 6px solid #292d7c;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  border-radius: 3px;
+  box-shadow: 2px 6px 10px 0px #292d7c;
+}
+
+.menuLinkA {
+  position: relative;
+  text-decoration: none;
+  padding: 14px 0;
+  margin: 10px;
+  color: #545454;
+  font-size: 24px;
+  text-align: center;
 }

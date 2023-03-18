@@ -1,22 +1,30 @@
 import styles from "@/styles/Home.module.css";
 export default function Menu() {
   return (
-    <div className={styles.menu}>
-      <ul>
+    <div>
+      <ul className={styles.menu}>
         <li>
-          <a href="#">Daily</a>
+          <a href="#" className={styles.menuLinkA}>
+            Daily
+          </a>
         </li>
 
         <li>
-          <a href="#">Weekly</a>
+          <a href="#" className={styles.menuLinkA}>
+            Weekly
+          </a>
         </li>
 
         <li>
-          <a href="#">Monthly</a>
+          <a href="#" className={styles.menuLinkA}>
+            Monthly
+          </a>
         </li>
 
         <li>
-          <a href="#">Year</a>
+          <a href="#" className={styles.menuLinkA}>
+            Year
+          </a>
         </li>
       </ul>
     </div>
