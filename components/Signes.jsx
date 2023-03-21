@@ -22,7 +22,7 @@ export default function Signes({ children }) {
     <div className={styles.signes}>
       {signes.map((path) => {
         return (
-          <div key={path} className={styles.sing}>
+          <div key={path} className={styles.sign}>
             <Link href={`/sign/${path}`}>
               <Image
                 src={`/${path}.png`}
