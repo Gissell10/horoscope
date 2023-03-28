@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Signes from "../components/Signes";
+import Signs from "../components/Signs";
 import Hero from "../components/Hero";
 import Menu from "../components/Menu";
 
@@ -15,7 +15,7 @@ export default function Home() {
       <main>
         <Hero />
         <Menu />
-        <Signes />
+        <Signs />
       </main>
     </>
   );
