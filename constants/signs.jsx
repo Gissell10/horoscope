@@ -9,7 +9,7 @@ export const signs = [
   { id: "scorpio", name: "Scorpio", date: "October 24 - November 21" },
   {
     id: "sagittarius",
-    name: "sagittarius",
+    name: "Sagittarius",
     date: "November 22 - December 21",
   },
   { id: "capricorn", name: "Capricorn", date: "December 22 - January 19" },
