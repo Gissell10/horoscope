@@ -26,6 +26,7 @@ export default function Sign({ id, name, date }) {
 
         <div>
           <h1> about this sign generated for chap GPT API</h1>
+          <> la llave de app</>
         </div>
       </div>
     </>
