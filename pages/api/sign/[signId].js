@@ -6,7 +6,6 @@ export default async function handler(req, res) {
   const sign = signs.find((s) => s.id === signId);
 
   if (sign) {
-    console.log(process.env.OPENAI_API_KEY, "KEY");
     const apiUrl =
       "https://api.openai.com/v1/engines/text-davinci-002/completions";
     const response = await fetch(apiUrl, {
